@@ -10,5 +10,8 @@
   "eslint.validate": ["javascript"],
 
   "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-  "prettier.documentSelectors": ["**/*.{js,ts,md,json,yaml,yml}"]
+  "prettier.documentSelectors": ["**/*.{js,ts,md,json,yaml,yml}"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
