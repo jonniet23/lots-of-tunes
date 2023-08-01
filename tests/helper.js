@@ -4,6 +4,6 @@ afterEach(async () => {
   await db.query("TRUNCATE Artists CASCADE");
 });
 
-/* afterEach(async () => {
+afterEach(async () => {
   await db.query("TRUNCATE Albums CASCADE");
-}); */
+});
